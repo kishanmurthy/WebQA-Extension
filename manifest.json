@@ -1,0 +1,18 @@
+{
+  "name": "WebQA: Ask question based on any webpage",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "This extension will help you to ask questions on any webpage.",
+  "action": {
+    "default_popup": "popup/popup.html"
+  }, 
+  "icons": { 
+    "32": "./images/main_128.png"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"   
+  ],
+  "host_permissions": ["<all_urls>"]
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Question</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+    <div class="container m-3">
+        <h1><b> Question</b></h1>
+    </div>
+
+    <div class="field has-addons m-3">
+
+        <div class="control is-12" style="width: 100%;">
+            <textarea class="input" id="question" name="question" rows="4" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="field has-addons m-3">        
+        <div class="control">
+            <button class="button is is-success" id="send-button">Send</button>
+        </div>
+    </div>
+
+
+    <div class="container m-3">
+        <p class="title is-6" id="status-text-thinking" style="margin-bottom: 12px;">Thinking...</p>
+        <p class="title is-6" id="status-text-complete" style="margin-bottom: 12px;">Answer</p>
+    </div>
+
+    <div class="container m-3">
+        <p id="result-text" style="margin-bottom: 12px;">Result Hidden</p>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
