@@ -1,7 +1,6 @@
 # <img src="https://raw.githubusercontent.com/kishanmurthy/WebQA-Extension/main/images/main_128.png" alt= “Logo” width="45" height="45">  WebQA-Extension 
 
-
-
+![Screenshot 2023-05-04 at 2 18 31 AM](https://user-images.githubusercontent.com/25534697/236163239-7b4bb04e-bc58-43f3-b342-b5b39b0ac051.png)
 
 
 
