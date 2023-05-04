@@ -16,7 +16,7 @@ function read_website() {
 send_button.onclick = ()=> {
     console.log("You clicked the button!");
     
-    url =  BASE_URL + '/question_answer'
+    url =  BASE_URL + '/question-answer'
 
     document.getElementById('status-text-thinking').hidden = false
     document.getElementById('status-text-complete').hidden = true
