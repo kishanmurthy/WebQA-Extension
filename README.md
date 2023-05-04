@@ -1,4 +1,10 @@
-# WebQA-Extension
+# <img src="https://raw.githubusercontent.com/kishanmurthy/WebQA-Extension/main/images/main_128.png" alt= “Logo” width="45" height="45">  WebQA-Extension 
+
+
+
+
+
+
 
 This is a chrome extension for WebQA. It collects the data from the web page and sends it to the server. The server will process the data and send the response (answer) back to the extension. The extension will display the response in the popup.
 
