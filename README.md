@@ -4,7 +4,7 @@
 
 WebQA project allows a user to ask any question on the contents of the webpage using LangChain, OpenAI Embeddings and gpt-3.5-turbo. The project consist of
 - <b>WebQA-Extension</b> (Chrome Extension)
-- <b>WebQA-API</b> (Python Flask API)
+- [<b>WebQA-API</b>](https://github.com/kishanmurthy/WebQA-API) (Python Flask API)
 
 WebQA-Extension is designed to seamlessly gather webpage data and user questions, then send them to the WebQA-API for processing. Upon receiving the data, the API analyzes the information and sends back the answer to the extension. With this, the extension displays the answer on the extension page, providing users with quick and accurate responses to their queries.
 
